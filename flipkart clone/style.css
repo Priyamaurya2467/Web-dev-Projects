@@ -1,0 +1,372 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: rgb(48, 45, 45);
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+body{
+    background-color: rgb(242, 242, 242);
+}
+.heading{
+    display: flex;
+    height: 2.5rem;
+    
+    
+    
+    align-items: center;
+    font-size: 18px;
+    padding: 1rem;
+    background-color: white;
+}
+.search , .login-container , .cart-container , .house-container{
+    display: flex;
+    margin-left: 1rem;
+   
+
+    
+}
+#search{
+    width: 38rem;
+    height: 1rem;
+    padding: 12px;
+    border-radius: 5px 0px 0px 5px;
+    background-color: rgb(239, 245, 255);
+    padding-left: 2rem;
+    font-size: 17px;
+    border: none;
+    margin-left: 10px;
+    font-weight: 500;
+}
+.search-button{
+    height: 1rem;
+
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+}
+.login-container , .cart-container ,.house-container ,.detail-container {
+    margin-top: 10px;
+    border: 1px ;
+    height: 2rem;
+    padding: 3px 2px 2px 3px ;
+    
+    margin-left: 4rem;
+}
+.icon{
+    height: 1.8rem;
+}
+.icon-content , .cart-content ,.house-content{
+    margin-left: 5px;
+    margin-top: 3px;
+
+}
+.detail-container{
+    display: flex;
+    padding: 3px;
+    border-radius: 5px;
+    
+}
+.detail-container:hover{
+    background-color: rgb(188, 183, 183);
+}
+.login-container:hover{
+    background-color: rgb(78, 78, 245);
+    
+    
+}
+.login-content:hover{
+    color: white;
+}
+.section-container{
+    display: flex;
+    justify-content: space-evenly;
+    
+    background-color: white;
+    margin: 15px;
+    height: 5rem;
+    border-radius: 5px;
+    padding: 10px;
+    padding-top: 12px;
+    padding-bottom: 20px;
+    margin-right: 10px;
+    
+    
+    
+}
+.section-content{
+    font-size: 17px;
+   
+    padding: px;   
+    margin: 0 auto;
+}
+.banner{
+    height: 17rem;
+    background-color: white;
+}
+.banner-image{
+    height: 18rem;
+    width: 100%;
+}
+.advertise1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 25rem;
+}
+.Mobiles{
+    width: 80%;
+    background: white;
+    margin: 15px;
+    padding: 1.5rem;
+    display: grid;
+    grid-template-columns: 6;
+    grid-template-rows: 1;
+  
+}
+.photo-icon{
+    height: 9rem;
+    width: 7.5rem;
+}
+.phone{
+    padding: 2.5rem;
+    padding-bottom: 1rem;
+}
+.phone-content{
+    padding-left: 3.5rem;
+}
+.content2{
+    padding: 6px;
+    font-size: 15px;
+    
+}
+.phone-display{
+    display: flex;
+}
+.photo-icon:hover{
+    height: 9.2rem;
+    width: 7.7rem;
+}
+.add-image{
+    width: 15rem;
+    height: 23.3rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.home{
+    background-color: white;
+    margin: 15px;
+    padding: 1rem;
+}
+.decor-icon{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 2px;
+    
+}
+.decor-display{
+   padding-top: 2.5rem;
+   padding-left: 2rem;
+  
+    display: flex;
+}
+.decor{
+    padding-right: 4rem;
+}
+
+.decor-icon:hover{
+    height: 6.1rem;
+    width: 6.1rem;
+}
+.decor-content{
+    padding-top: 5px;
+}
+.banner1{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.banner-img{
+    width: 23.3rem;
+}
+.banner1{
+    display: flex;
+}
+.banner2{
+    width: 100vh;
+    margin: 15px;
+    background-color: white;
+    display: flex;
+    
+}
+.bannerA{
+    padding-left: 1px;
+    padding-right: 8px;
+}
+.bannerimg{
+    width: 30.7rem;
+
+}
+.left1, .left2{
+    width: 30rem;
+    background-color: white;
+
+}
+
+.left-head{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.left-right{
+    border: none;
+    padding: 8px;
+    border-radius: 65%;
+    color: white;
+    font-weight: 600;
+    background-color: rgb(69, 69, 233);
+
+}
+.left1{
+    width: 35rem;
+    margin: 15px;
+}
+.left11{
+    width: 15rem;
+    height: 19rem;
+    border: 1px solid rgb(170, 168, 168);
+    margin: 1rem;
+    border-radius: 5px;
+}
+.left-content{
+    padding: 15px;
+}
+.content-up{
+    display: flex;
+}
+.left-img{
+    width: 9rem;
+    padding: 30px;
+}
+.left-container{
+    padding: 1rem;
+    
+}
+.low-content{
+    padding: 6px;
+    
+}
+.text{
+    color: green;
+}
+.left-container1{
+    padding: 1px;
+}
+.footer{
+    padding: 15px;
+    line-height: 20px;
+    background-color: rgb(233, 230, 230);
+}
+h3{
+    padding: 5px;
+}
+h4{
+    padding: 3px;
+}
+.about{
+    padding: 15px;
+    background-color: rgb(233,230,230);
+    
+}
+.about-head , .about-desc{
+    padding: 15px;
+    color: rgb(168, 166, 166);
+    font-size: 15px;
+    line-height: 17px;
+}
+.about-foot{
+    background-color: black;
+    width: 100%;
+    padding: 35px;
+    display: flex;
+}
+
+a{
+    color: white;
+    font-size: 12px;
+}
+
+.foot-left{
+    display: flex;
+}
+.a , .b , .c , .d{
+    padding: 45px;
+}
+a:hover{
+    text-decoration: underline;
+}
+.foot-right{
+    display: flex;
+    padding: 35px;
+    padding-left: 35px;
+    border-left: 1px solid white;
+    
+}
+p{
+    color: white;
+    font-size: 12px;
+}
+.phone{
+    color: blue;
+    
+}
+.images{
+    display: flex;
+}
+.insta{
+    height: 17px;
+    width: 17px;
+    padding: 7px;
+}
+.abouth{
+   font-size: 14px;
+   font-weight: 600;
+   color: grey;
+}
+.right1 , .right2{
+    padding-right: 30px;
+}
+.social{
+    padding-top: 25px;
+}
+.img1{
+    padding: 10px;
+}
+.last{
+    padding: 30px;
+    background-color: black;
+    width: 100%;
+    padding: 35px;
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid white;
+}
+.last1{
+    display: flex;
+    flex-direction: row;
+   
+}
+.last-text{
+    padding-left: 10px;
+}
+.content{
+    color: white;
+    font-size: 12px;
+    
+}
+.add{
+    padding: 35px;
+}
