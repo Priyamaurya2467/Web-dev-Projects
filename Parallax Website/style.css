@@ -1,0 +1,117 @@
+html,body{
+    height: 100%;
+    font-family: 'Lato' sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8em;
+    letter-spacing: 1px;
+    color: #666;
+    margin: 0;
+}
+.one {
+   
+    background-image: url(image1.png);
+    min-height: 100%;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+.img{
+    position: absolute;
+    top: 50%;
+    
+    font-size: 50px;
+    width: 100%;
+    color: black;
+   
+    text-align: center;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.textbg{
+    background-color: #313534;
+    padding: 10px;
+    color: white;
+    font-weight: 300;
+}
+.light h1{
+    font-size: 60px;
+    font-weight: 100;
+    text-align: center;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+}
+.light{
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.5;
+    font-weight: 100;
+    padding: 50px 80px;
+    bottom: 15px;
+}
+.two{
+    background-image: url(image2.png);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+    min-height: 600px;
+    background-attachment: fixed;
+    margin-left: ;
+}
+.text{
+    position: absolute;
+    top: 50%; 
+    font-size: 50px;
+    letter-spacing: 8px;  
+    background: #282e34;
+    text-transform: uppercase;
+    padding: 20px;
+    text-align: center;
+    left: 30%;
+    color: white;
+   
+  
+}
+ text:hover{
+    color: black;
+    cursor: pointer;
+    
+    background-color: white;
+}
+.dark{
+    
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.5;
+    font-weight : 100;
+    padding : 50px 80px;
+    bottom : 15px;
+    color: white;
+    background-color: #313534;
+
+}
+.dark h1{
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+}
+.Three{
+    background-image: url(image3.png);
+    min-height: 100%;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    
+}
+.four{
+    background-image: url(image4.png);
+    min-height: 100%;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+   
+    background-attachment: fixed;
+
+}
