@@ -1,0 +1,15 @@
+button{
+    background-color: rgb(1, 15, 9);
+    border-radius: 1rem;
+    padding: 1rem;
+    border: none;
+    color: white;
+    font-weight: 900;
+    font-size: 1rem;
+    margin: 1rem;
+    padding: 25px;
+    cursor: pointer;
+};
+.invert{
+    filter: invert(100%);
+}

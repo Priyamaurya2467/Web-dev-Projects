@@ -1,0 +1,41 @@
+.button{
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid rgb(13, 1, 1);
+    border-radius: 9px;
+    cursor: pointer;
+}
+.row{
+    margin: 8px 0;
+}
+.row input{
+    font-size: 23px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid rgb(154, 130, 130);
+    border-radius: 5px;
+    width: 25rem;
+}
+input{
+    padding: 15PX;
+    
+}
+.calc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container{
+    background-color: aqua;
+    padding: 2rem;
+    margin: 1rem; 
+  }
+  .button{
+    align-items: center;
+  }
+  .rows{
+    margin: 8px 0;
+    text-align: center;
+    margin: 1rem;
+  }
